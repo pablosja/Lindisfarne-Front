@@ -1,0 +1,272 @@
+{
+    "pages": [
+        {
+            "id": 1,
+            "story": "ipsum lorem 1",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "story": "ipsum lorem 2",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "story": "ipsum lorem 3",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "story": "lorem ipsum 4",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "rojo",
+                    "nextPage": 5
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "verde",
+                    "nextPage": 6
+                },
+                {
+                    "endId": "f3",
+                    "btnText": "azul",
+                    "nextPage": 7
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "story": "ipsum lorem 5",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "story": "ipsum lorem 6",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "story": "ipsum lorem 7",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "story": "ipsum lorem 8",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 9
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "story": "ipsum lorem 9",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 10
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "story": "lorem ipsum 10",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "magenta",
+                    "nextPage": 11
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "amarillo",
+                    "nextPage": 12
+                },
+                {
+                    "endId": "f3",
+                    "btnText": "cian",
+                    "nextPage": 13
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "story": "ipsum lorem 11",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 14
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "story": "ipsum lorem 12",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 14
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "story": "ipsum lorem 13",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 14
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "story": "ipsum lorem 14",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 15
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "story": "ipsum lorem 15",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 16
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "story": "lorem ipsum 16",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "blanco",
+                    "nextPage": 17
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "gris",
+                    "nextPage": 18
+                },
+                {
+                    "endId": "f3",
+                    "btnText": "negro",
+                    "nextPage": 19
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "story": "ipsum lorem 17",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 20
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "story": "ipsum lorem 18",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 20
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "story": "ipsum lorem 19",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 20
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "story": "ipsum lorem 20",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 21
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "story": "ipsum lorem 21",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 22
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "story": "lorem ipsum 22",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "oro",
+                    "nextPage": 23
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "plata",
+                    "nextPage": 24
+                },
+                {
+                    "endId": "f3",
+                    "btnText": "bronce",
+                    "nextPage": 25
+                }
+            ]
+        }
+    ]
+}
