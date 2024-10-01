@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Home from './views/ClosingView.vue';
+import Home from './views/StoryView.vue';
 
 export default {
   components: {
