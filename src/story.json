@@ -76,7 +76,7 @@
         },
         {
             "id": 7,
-            "story": "ipsum lorem 8",
+            "story": "ipsum lorem 7",
             "isMultipleOptions": false,
             "nextPage": [
                 {
@@ -134,7 +134,7 @@
         {
             "id": 12,
             "story": "lorem ipsum 12",
-            "isMultipleOptions": true,
+            "isMultipleOptions": false,
             "nextPage": [
                 {
                     "endId": "f1",

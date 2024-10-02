@@ -32,7 +32,7 @@
   
   <style scoped>
   .home {
-    background-image: url('../assets/monastery.jpg');
+    background-color: rgb(60,60,60);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -83,7 +83,7 @@
     border-radius: 5px; /* Bordes redondeados */
     padding: 15px 30px; /* Padding del botón */
     font-size: 16px; /* Tamaño de fuente del botón */
-    font-family: "Orbitron", sans-serif;
+    font-family: "Black Ops One", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
