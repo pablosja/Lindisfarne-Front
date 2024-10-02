@@ -64,7 +64,10 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     width: 300px;
     min-height: 400px; /* Asegura que el tamaño del formulario sea constante */
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     color: white;
   }
   
@@ -86,7 +89,10 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
   
   .button-group button.active {
@@ -129,7 +135,10 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     font-size: 16px;
   }
   

@@ -56,20 +56,24 @@
   }
   
   .thx1 {
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
     font-size: 120px; /* Tamaño de fuente del texto thx1 */
   }
   
   .thx2 {
-    font-family: "Metamorphous", serif;
-    font-size: 30px; /* Tamaño de fuente del texto thx2 */
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
 
   .thx3 {
-    font-family: "Metamorphous", serif;
-    font-size: 20px; /* Tamaño de fuente del texto thx2 */
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
   
   .backToMMbutton {
@@ -79,7 +83,10 @@
     border-radius: 5px; /* Bordes redondeados */
     padding: 15px 30px; /* Padding del botón */
     font-size: 16px; /* Tamaño de fuente del botón */
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     cursor: pointer; /* Cursor de puntero */
     margin-bottom: 140px; /* Espacio en la parte inferior */
     z-index: 2;

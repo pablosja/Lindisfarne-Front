@@ -50,16 +50,15 @@
   }
   
   h2 {
-    font-family: "Metal Mania", system-ui;
-    font-size: 36px;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
     color: white;
     z-index: 2;
   }
   
   #storyBox {
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", system-ui;
     font-size: 13px;
     background: rgba(0, 0, 0, 0.8);
     width: 80%;

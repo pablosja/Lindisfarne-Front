@@ -31,7 +31,7 @@
   
   <style scoped>
   .home {
-    background-image: url('../assets/monastery.jpg');
+    background-color: rgb(60,60,60);
     background-size: cover;
     background-position: center;
     height: 100vh;

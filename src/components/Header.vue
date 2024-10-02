@@ -21,9 +21,9 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
   }
   
   /* Ajustes para dispositivos más pequeños */

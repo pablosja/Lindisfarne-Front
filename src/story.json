@@ -12,11 +12,18 @@
         },
         {
             "id": 2,
-            "story": "ipsum lorem 2",
-            "isMultipleOptions": false,
+            "story": "lorem ipsum 2",
+            "isMultipleOptions": true,
             "nextPage": [
                 {
+                    "endId": "f1",
+                    "btnText": "rojo",
                     "nextPage": 3
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "verde",
+                    "nextPage": 4
                 }
             ]
         },
@@ -26,39 +33,34 @@
             "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "nextPage": 4
+                    "nextPage": 5
                 }
             ]
         },
         {
             "id": 4,
-            "story": "lorem ipsum 4",
-            "isMultipleOptions": true,
+            "story": "ipsum lorem 4",
+            "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "endId": "f1",
-                    "btnText": "rojo",
                     "nextPage": 5
-                },
-                {
-                    "endId": "f2",
-                    "btnText": "verde",
-                    "nextPage": 6
-                },
-                {
-                    "endId": "f3",
-                    "btnText": "azul",
-                    "nextPage": 7
                 }
             ]
         },
         {
             "id": 5,
-            "story": "ipsum lorem 5",
-            "isMultipleOptions": false,
+            "story": "lorem ipsum 5",
+            "isMultipleOptions": true,
             "nextPage": [
                 {
-                    "nextPage": 8
+                    "endId": "f1",
+                    "btnText": "magenta",
+                    "nextPage": 6
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "amarillo",
+                    "nextPage": 7
                 }
             ]
         },
@@ -74,7 +76,7 @@
         },
         {
             "id": 7,
-            "story": "ipsum lorem 7",
+            "story": "ipsum lorem 8",
             "isMultipleOptions": false,
             "nextPage": [
                 {
@@ -84,11 +86,18 @@
         },
         {
             "id": 8,
-            "story": "ipsum lorem 8",
-            "isMultipleOptions": false,
+            "story": "lorem ipsum 8",
+            "isMultipleOptions": true,
             "nextPage": [
                 {
+                    "endId": "f1",
+                    "btnText": "blanco",
                     "nextPage": 9
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "gris",
+                    "nextPage": 10
                 }
             ]
         },
@@ -98,29 +107,17 @@
             "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "nextPage": 10
+                    "nextPage": 11
                 }
             ]
         },
         {
             "id": 10,
-            "story": "lorem ipsum 10",
-            "isMultipleOptions": true,
+            "story": "ipsum lorem 10",
+            "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "endId": "f1",
-                    "btnText": "magenta",
                     "nextPage": 11
-                },
-                {
-                    "endId": "f2",
-                    "btnText": "amarillo",
-                    "nextPage": 12
-                },
-                {
-                    "endId": "f3",
-                    "btnText": "cian",
-                    "nextPage": 13
                 }
             ]
         },
@@ -130,16 +127,23 @@
             "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "nextPage": 14
+                    "nextPage": 12
                 }
             ]
         },
         {
             "id": 12,
-            "story": "ipsum lorem 12",
-            "isMultipleOptions": false,
+            "story": "lorem ipsum 12",
+            "isMultipleOptions": true,
             "nextPage": [
                 {
+                    "endId": "f1",
+                    "btnText": "oro",
+                    "nextPage": 13
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "plata",
                     "nextPage": 14
                 }
             ]
@@ -150,7 +154,7 @@
             "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "nextPage": 14
+                    "nextPage": "ClosingPage"
                 }
             ]
         },
@@ -160,111 +164,7 @@
             "isMultipleOptions": false,
             "nextPage": [
                 {
-                    "nextPage": 15
-                }
-            ]
-        },
-        {
-            "id": 15,
-            "story": "ipsum lorem 15",
-            "isMultipleOptions": false,
-            "nextPage": [
-                {
-                    "nextPage": 16
-                }
-            ]
-        },
-        {
-            "id": 16,
-            "story": "lorem ipsum 16",
-            "isMultipleOptions": true,
-            "nextPage": [
-                {
-                    "endId": "f1",
-                    "btnText": "blanco",
-                    "nextPage": 17
-                },
-                {
-                    "endId": "f2",
-                    "btnText": "gris",
-                    "nextPage": 18
-                },
-                {
-                    "endId": "f3",
-                    "btnText": "negro",
-                    "nextPage": 19
-                }
-            ]
-        },
-        {
-            "id": 17,
-            "story": "ipsum lorem 17",
-            "isMultipleOptions": false,
-            "nextPage": [
-                {
-                    "nextPage": 20
-                }
-            ]
-        },
-        {
-            "id": 18,
-            "story": "ipsum lorem 18",
-            "isMultipleOptions": false,
-            "nextPage": [
-                {
-                    "nextPage": 20
-                }
-            ]
-        },
-        {
-            "id": 19,
-            "story": "ipsum lorem 19",
-            "isMultipleOptions": false,
-            "nextPage": [
-                {
-                    "nextPage": 20
-                }
-            ]
-        },
-        {
-            "id": 20,
-            "story": "ipsum lorem 20",
-            "isMultipleOptions": false,
-            "nextPage": [
-                {
-                    "nextPage": 21
-                }
-            ]
-        },
-        {
-            "id": 21,
-            "story": "ipsum lorem 21",
-            "isMultipleOptions": false,
-            "nextPage": [
-                {
-                    "nextPage": 22
-                }
-            ]
-        },
-        {
-            "id": 22,
-            "story": "lorem ipsum 22",
-            "isMultipleOptions": true,
-            "nextPage": [
-                {
-                    "endId": "f1",
-                    "btnText": "oro",
-                    "nextPage": 23
-                },
-                {
-                    "endId": "f2",
-                    "btnText": "plata",
-                    "nextPage": 24
-                },
-                {
-                    "endId": "f3",
-                    "btnText": "bronce",
-                    "nextPage": 25
+                    "nextPage": "ClosingPage"
                 }
             ]
         }

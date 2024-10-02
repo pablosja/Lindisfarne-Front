@@ -37,7 +37,10 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     width: 300px;
     height: 300px; /* Altura fija para el componente */
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     color: white;
   }
   
@@ -60,7 +63,10 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: "Metamorphous", serif;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
   
   /* Estilos del botón de submit */
