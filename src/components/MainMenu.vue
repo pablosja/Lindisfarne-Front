@@ -4,7 +4,7 @@
       <div class="button-group">
         <router-link to = "/story"><button type="button">Nueva Lectura</button></router-link>
         <button type="button" @click="navigateTo('cargarLectura')">Cargar Lectura</button>
-        <button type="button" @click="navigateTo('atras')">Atrás</button>
+        <router-link to = "/login"><button type="button">Atrás</button></router-link>
       </div>
     </div>
   </template>
