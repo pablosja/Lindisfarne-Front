@@ -1,38 +1,42 @@
 <template>
-    <div class="home">
-      <div class="thanks">
-        <div class="thx2">
-          <p>Gracias por leer</p>
-        </div>
-        <div class="thx1">
-          <p>Lindisfarne</p>
-        </div>
-        <div class="thx3">
-          <p>Autor y Desarrollador</p>
-        </div>
-        <div class="thx3">
-          <p>Pablo San José</p>
-        </div>
+  <div class="home">
+    <div class="thanks">
+      <div class="thx2">
+        <p>Gracias por leer</p>
       </div>
-      <button class="backToMMbutton" @click="handleBack">Volver al Menú Principal</button>
+      <div class="thx1">
+        <p>Lindisfarne</p>
+      </div>
+      <div class="thx3">
+        <p>Autor y Desarrollador</p>
+      </div>
+      <div class="thx3">
+        <p>Pablo San José</p>
+      </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    methods: {
-      handleBack() {
-        // Lógica para redirigir al menú principal
-        console.log('Volver al Menú Principal');
-        // Aquí puedes usar this.$router.push('/ruta') si usas Vue Router
-      }
-    }
-  };
-  </script>
+    <button class="backToMMbutton" @click="handleBack">Volver al Menú Principal</button>
+  </div>
+</template>
+
+<script>
+import { useRouter } from 'vue-router'; // Asegúrate de importar useRouter
+
+export default {
+  setup() {
+    const router = useRouter(); // Inicializa el router
+
+    const handleBack = () => {
+      router.push('/home'); // Redirige a HomeView
+    };
+
+    return { handleBack }; // Devuelve la función para usarla en el template
+  }
+};
+</script>
   
   <style scoped>
   .home {
-    background-color: rgb(60,60,60);
+    background-color: rgb (60, 60, 60);
     background-size: cover;
     background-position: center;
     height: 100vh;

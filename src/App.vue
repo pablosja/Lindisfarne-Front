@@ -1,12 +1,13 @@
 
 <template>
   <div id="app">
-    <Home />
+    <RouterView />
   </div>
 </template>
 
 <script>
-import Home from './views/StoryView.vue';
+import Home from './views/ClosingView.vue';
+import { RouterView } from 'vue-router'
 
 export default {
   components: {
@@ -22,7 +23,8 @@ export default {
 
 
 <!-- <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+
+
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 

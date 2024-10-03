@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Header />
+    <MainMenu />
     <div class="form-container">
       <AuthForm :isLogin="isLogin" @toggleView="toggleView" />
     </div>
@@ -9,12 +10,12 @@
 
 <script>
 import Header from '../components/Header.vue';
-import AuthForm from '../components/MainMenu.vue';
+import MainMenu from '../components/MainMenu.vue';
 
 export default {
   components: {
     Header,
-    AuthForm
+    MainMenu
   },
   data() {
     return {
@@ -24,10 +25,17 @@ export default {
   methods: {
     toggleView() {
       this.isLogin = !this.isLogin;
+    },
+    goToLogin() {
+      this.$router.push({ name: 'LoginView' }); // Redirige a LoginView
+    },
+    goToStory() {
+      this.$router.push({ name: 'StoryView' }); // Redirige a StoryView
     }
   }
 };
 </script>
+
 
 <style scoped>
 .home {

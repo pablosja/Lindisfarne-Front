@@ -13,7 +13,7 @@
       </div>
       <div class="smallBtns">
         <button id="backBtn" v-if="showBackBtn" @click="goBack">Atrás</button>
-        <button id="endBtn" v-if="isEndPage" @click="goToNextPage('ClosingPage')">Fin</button>
+        <button id="endBtn" v-if="isEndPage" @click="goToMM('ClosingView')">Fin</button>
         <button id="continueBtn" v-if="!currentStoryPage.isMultipleOptions && !isEndPage" @click="goToNextPage">Continuar</button>
       </div>
     </div>
@@ -21,15 +21,17 @@
 </template>
 
 <script>
-import jsonData from '../story.json'
+import jsonData from '../story.json';
 import { useStoryStore } from '../stores/useStoryStore';
 import { computed } from 'vue';
+import { useRouter } from 'vue-router';  // Importar el router
 
 export default {
   name: 'StoryView',
   setup() {
     const storyStore = useStoryStore();
-    
+    const router = useRouter();  // Crear una instancia del router
+
     const currentStoryPage = computed(() => {
       return jsonData.pages.find(page => page.id === storyStore.currentPage);
     });
@@ -55,8 +57,18 @@ export default {
       }
     };
 
+    const goToMM = () => {
+      router.push('/closing'); // Redirige a HomeView
+    };
+
+
     const goBack = () => {
-      storyStore.goBack();
+      if (storyStore.currentPage === 1) {
+        console.log(storyStore.currentPage)
+        router.push("/home")
+      } else {
+        storyStore.goBack();  // Si no, regresar a la página anterior
+      }
     };
 
     const handleOptionA = (nextPageId) => {
@@ -77,13 +89,11 @@ export default {
       handleOptionB,
       showBackBtn,
       isEndPage,
+      goToMM,
     };
   }
 };
 </script>
-
-
-
 
 
 <style scoped>
