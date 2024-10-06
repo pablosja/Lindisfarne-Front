@@ -1,51 +1,78 @@
 <template>
-    <div class="login-form">
-      <!-- Botones de Nuevo Lector y Cargar Lector siempre fijos en la parte superior -->
-      <div class="button-group">
-        <button type="button" :class="{'active': !isLogin}" @click="setRegister">Nuevo Lector</button>
-        <button type="button" :class="{'active': isLogin}" @click="setLogin">Cargar Lector</button>
-      </div>
-  
-      <!-- Contenedor para los inputs, con un espacio reservado para Confirmar contraseña -->
-      <div class="input-group">
-        <input type="text" v-model="username" placeholder="Nombre de Lector" required />
-        <input type="password" v-model="password" placeholder="Contraseña" required />
-        <!-- Espacio reservado para el campo de Confirmar contraseña, se muestra solo en el modo de registro -->
-        <input type="password" v-model="confirmPassword" placeholder="Confirmar contraseña" :class="{'hidden': isLogin}" />
-      </div>
-  
-      <!-- Botón de aceptar siempre fijo en la parte inferior -->
-      <button type="button" class="submit-button" @click="handleSubmit">{{ isLogin ? 'Aceptar' : 'Aceptar' }}</button>
+  <div class="login-form">
+    <div class="button-group">
+      <button type="button" :class="{'active': !isLogin}" @click="setRegister">Nuevo Lector</button>
+      <button type="button" :class="{'active': isLogin}" @click="setLogin">Cargar Lector</button>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    props: ['isLogin'],
-    data() {
-      return {
-        username: '',
-        password: '',
-        confirmPassword: ''
-      };
-    },
-    methods: {
-      handleSubmit() {
-        if (this.isLogin) {
-          console.log('Cargar Lector:', this.username, this.password);
-        } else {
-          console.log('Nuevo Lector creado:', this.username, this.password, this.confirmPassword);
+
+    <div class="input-group">
+      <input type="text" v-model="username" placeholder="Nombre de Lector" required />
+      <input type="password" v-model="password" placeholder="Contraseña" required />
+      <input type="password" v-model="confirmPassword" placeholder="Confirmar contraseña" v-if="!isLogin" />
+    </div>
+
+    <button type="button" class="submit-button" @click="handleSubmit">{{ isLogin ? 'Aceptar' : 'Registrar' }}</button>
+  </div>
+</template>
+
+<script>
+import axios from 'axios';
+
+export default {
+  props: ['isLogin'],
+  data() {
+    return {
+      username: '',
+      password: '',
+      confirmPassword: ''
+    };
+  },
+  methods: {
+    async handleSubmit() {
+      if (this.isLogin) {
+        // Llamada de login
+        try {
+          const response = await axios.post('/api/v1/login', {
+            username: this.username,
+            password: this.password // Enviar la contraseña sin codificación Base64
+          });
+          console.log('Login exitoso:', response.data);
+          this.$emit('loginSuccess');
+        } catch (error) {
+          console.error('Error en login:', error);
+          alert('Error en el inicio de sesión. Por favor, verifica tus credenciales.');
         }
-      },
-      setLogin() {
-        this.$emit('toggleView', true);
-      },
-      setRegister() {
-        this.$emit('toggleView', false);
+      } else {
+        // Validar confirmación de contraseña
+        if (this.password !== this.confirmPassword) {
+          alert('Las contraseñas no coinciden');
+          return;
+        }
+
+        // Llamada de registro
+        try {
+          const response = await axios.post('/api/v1/register', {
+            username: this.username,
+            password: this.password // Enviar la contraseña sin codificación Base64
+          });
+          console.log('Registro exitoso:', response.data);
+          this.$emit('registerSuccess');
+        } catch (error) {
+          console.error('Error en registro:', error);
+          alert('Error en el registro. Por favor, intenta nuevamente.');
+        }
       }
+    },
+    setLogin() {
+      this.$emit('toggleView', true);
+    },
+    setRegister() {
+      this.$emit('toggleView', false);
     }
-  };
-  </script>
+  }
+};
+</script>
+
   
   <style scoped>
   /* Estilos para centrar el componente en pantalla */

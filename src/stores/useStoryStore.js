@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 
 export const useStoryStore = defineStore('story', {
   persist: true,  // Activa la persistencia
-  
+
   state: () => ({
     currentPage: 1,
     previousPages: [],
@@ -27,6 +27,13 @@ export const useStoryStore = defineStore('story', {
     },
     incrementOptB() {
       this.optBClicks++;
-    }
+    },
+    resetStory() {
+      // Restablece todos los datos a su estado inicial, asegurando que se reinicie solo al final
+      this.currentPage = 1;
+      this.previousPages = [];
+      this.optAClicks = 0;
+      this.optBClicks = 0;
+    },
   }
 });

@@ -6,12 +6,13 @@
 </template>
 
 <script>
-import Home from './views/ClosingView.vue';
+import Home from './views/HomeView.vue';
 import { RouterView } from 'vue-router'
 
 export default {
   components: {
-    Home
+    Home,
+    RouterView
   }
 };
 </script>

@@ -13,7 +13,7 @@
       </div>
       <div class="smallBtns">
         <button id="backBtn" v-if="showBackBtn" @click="goBack">Atrás</button>
-        <button id="endBtn" v-if="isEndPage" @click="goToMM('ClosingView')">Fin</button>
+        <button id="endBtn" v-if="isEndPage" @click="handleFinishStory">Fin</button>
         <button id="continueBtn" v-if="!currentStoryPage.isMultipleOptions && !isEndPage" @click="goToNextPage">Continuar</button>
       </div>
     </div>
@@ -31,6 +31,12 @@ export default {
   setup() {
     const storyStore = useStoryStore();
     const router = useRouter();  // Crear una instancia del router
+
+    const handleFinishStory = () => {
+      // Limpia la persistencia de datos y navega a la vista de cierre
+      storyStore.resetStory(); // Reinicia los datos
+      goToClosing('ClosingView');  // Navega a la vista de cierre
+    };
 
     const currentStoryPage = computed(() => {
       return jsonData.pages.find(page => page.id === storyStore.currentPage);
@@ -57,15 +63,13 @@ export default {
       }
     };
 
-    const goToMM = () => {
+    const goToClosing = () => {
       router.push('/closing'); // Redirige a HomeView
     };
 
-
     const goBack = () => {
       if (storyStore.currentPage === 1) {
-        console.log(storyStore.currentPage)
-        router.push("/home")
+        router.push("/home");
       } else {
         storyStore.goBack();  // Si no, regresar a la página anterior
       }
@@ -89,11 +93,12 @@ export default {
       handleOptionB,
       showBackBtn,
       isEndPage,
-      goToMM,
+      handleFinishStory,
     };
   }
 };
 </script>
+
 
 
 <style scoped>
