@@ -1,51 +1,48 @@
 <template>
-    <header>
-      <h1>Lindisfarne</h1>
-    </header>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Header'
-  };
-  </script>
-  
-  <style scoped>
-  header {
-    padding: 20px;
-    text-align: center;
-    color: white;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    font-family: "Black Ops One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  }
-  
-  /* Ajustes para dispositivos más pequeños */
-  @media (max-width: 768px) {
-    header {
-      padding: 15px;
-    }
-    
-    h1 {
-      font-size: 24px; /* Reducir el tamaño de la fuente */
-    }
-  }
-  
-  /* Ajustes para dispositivos muy pequeños (teléfonos en orientación vertical) */
-  @media (max-width: 480px) {
-    header {
-      padding: 10px;
-    }
-    
-    h1 {
-      font-size: 20px; /* Reducir aún más el tamaño de la fuente */
-    }
-  }
-  </style>
-  
+  <header>
+    <h2 class="font_basic_settings">Única Salida</h2>
+  </header>
+</template>
+
+<script>
+export default {
+  name: 'Header'
+};
+</script>
+
+<style>
+
+header {
+  background: var(--color-primary);
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 2px;
+    background: var(--color-header-gradient);
+    z-index: 3;
+}
+
+
+.header-h2, header {
+  padding: var(--size-s);
+  text-align: center;
+  position: relative;
+  top: 0%;
+  left: 0;
+  min-width: 100vw;
+}
+
+
+
+
+h2 {
+  font-family: var(--primary-font-family);
+  font-size: var(--size-font-b);
+}
+
+
+
+</style>

@@ -1,86 +1,138 @@
-/* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
+  /* FONTS */
+  --primary-font-family: "Black Ops One", system-ui;
+  --secondary-font-family: "Orbitron", sans-serif;
+  --font-weight: 400;
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+  /* SIZES */
+  
+  /* SPACING */ 
 
-  --vt-c-indigo: #2c3e50;
+  /* X/2 */  --size-ss: calc(var(--size-sm) / 2);  
+  /*  X */   --size-s:  0.1rem;                     
+  /* X */    --size-sm: 1rem;
+  /* X/2 */  --size-ssmm: calc(var(--size-sm) * 0.7);  
+  /* 2X */   --size-ssm: calc(var(--size-sm) * 2); 
+  /* 3X */   --size-smm: calc(var(--size-sm) * 3);    
+  /* 4X */   --size-m:  calc(var(--size-sm) * 4);  
+  /* 6X */   --size-b:  calc(var(--size-sm) * 6);  
+  /* 8X */   --size-sb: calc(var(--size-sm) * 8);  
+ 
+  /* FONT SIZE */
+  /* X-10 */ --size-font-ss: calc(var(--size-font-sm) * 0.55);  
+  /* X-5 */  --size-font-s:  calc(var(--size-font-sm) * 0.75);  
+  /* X */    --size-font-sm: 1.3rem;                            
+  /* X+10 */ --size-font-m:  calc(var(--size-font-sm) * 1.04);   
+  /* 3X */   --size-font-b:  calc(var(--size-font-sm) * 3.03);  
+  /* 4X */   --size-font-sb: calc(var(--size-font-sm) * 4);   
+ 
+   /* SIZES */
+  --h-small-size: 5vh;  /* 10px */
+  --h-medium-size: 50vh;  /* 20px */
+  --h-big-size: 10vh;  /* 40px */
+  
+  --w-small-size: 5vw;  /* 10px */
+  --w-medium-size: 85vw;  /*0px */
+  --w-big-size: 25vw;  /* 40px */
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  /* COLORS */
+  
+  --color-primary:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(12, 12, 12, 0.8)); 
+  --color-secondary:rgb(60, 60, 60);
+  --color-button-general:linear-gradient(to bottom, rgb(7, 7, 7), rgba(34, 34, 34)); 
+  --color-button-nav:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(37, 37, 37, 0.8)); 
+  --color-header-gradient: linear-gradient(to right, #444444 0%, #ffffff 50%, #444444 100%);
+  /* BG BUTTON ACTIVE */ --color-button-active: rgba(255, 101, 122, 0.801);    
+  /* BG BUTTON HOVER */  --color-button-hover: rgba(255, 240, 109, 0.89);    
 
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  /* FONT COLOR */       --color-light: rgb(255, 255, 255);   
+  /* BG TEXTBOX */       --color-dark: rgb(4, 4, 3);       
+
+  /* BG INPUT */         --color-light-gradient: linear-gradient(to bottom, #AAAAAA, #FFFFFF);
+  /* SHADOW */           --color-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  /* BORDER GRADIENT */  --color-border-gradient:linear-gradient(
+                          to bottom, /* Dirección del gradiente */
+                      rgb(68, 68, 68), /* #444444 al 70% de opacidad */
+                      rgb(255, 255, 255), /* #FFFFFF al 70% de opacidad */
+                      rgba(68, 68, 68), /* #444444 al 70% de opacidad */
+                      rgba(0, 0, 0) /* #000000 al 70% de opacidad */
+                          ) ; /* El gradiente se usa como borde */
+                          
+}
+ 
+
+.font_basic_settings, h2, button {
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-light);
 }
 
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
+.font_spacing {
+  letter-spacing: 2px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+.home {
+    background-color: var(--color-secondary);
+    min-height: 100vh;
+    min-width: 100vw; 
+    position: absolute;
+    top:0;
+    /* z-index: 2; */
+    display: flex;
+    flex-direction: column;
   }
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
-}
+  button {
+    background: var(--color-button-general);
+    position: relative;
+    background-clip: padding-box; 
+    border: 2px solid transparent;
+    border-radius: var(--size-font-ss);
+    margin-top: var(--size-sm);
+    margin-bottom: var(--size-sm);
+    letter-spacing: 3px;
+    
+  }
 
-body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  
+  button:active {
+    background: var(--color-button-active);
+  }
+
+  button:hover {
+    background: var(--color-button-hover);
+  }
+
+
+  button::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0; 
+    z-index: -1;
+    margin: -2px; 
+    border-radius: inherit; 
+    background: var(--color-border-gradient);
+  }
+
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0; 
+    z-index: -2;
+    margin: -2px; 
+    border-radius: inherit; 
+    background-color: white;
+  }
+
+
+  input {
+    margin-bottom: var(--size-sm);
+    font-size: var(--size-font-m);
+    min-width: 18.5rem;
+  }
+
+
+  input, button {
+    padding: var(--size-font-sm);
+    max-width: 18.5rem;
+  }
