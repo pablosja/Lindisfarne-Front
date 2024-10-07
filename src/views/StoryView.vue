@@ -1,8 +1,8 @@
 <template>
-  <body class="home">
+  <body class="align-content">
     <h2 class="font_basic_settings header-h2">Única Salida</h2>
     <div id="storyBox" class="font_basic_settings basic-text">
-      {{ currentStoryPage.story }}
+      <p class="story-text">{{ currentStoryPage.story }}</p>
     </div>
     <div class="story-btns-group">
       <div class="option-button-group">
@@ -22,19 +22,12 @@
         </div>
       </div>
       <div class="nav-button-group">
-        <button class="nav-btn" id="backBtn" v-if="showBackBtn" @click="goBack">Atrás</button>
-        <button class="nav-btn" id="endBtn" v-if="isEndPage" @click="handleFinishStory">
-          Fin
-        </button>
-        <button class="nav-btn"
-          id="continueBtn"
-          v-if="!currentStoryPage.isMultipleOptions && !isEndPage"
-          @click="goToNextPage"
-        >
-          Continuar
-        </button>
+        
+        <div class="nav-button-grid-cell-1"><button class="nav-btn" id="backBtn" v-if="showBackBtn" @click="goBack">Atrás</button></div>
+        <div class="nav-button-grid-cell-2"><button class="nav-btn" id="endBtn" v-if="isEndPage" @click="handleFinishStory">Fin</button></div>
+        <div class="nav-button-grid-cell-3"><button class="nav-btn" id="continueBtn" v-if="!currentStoryPage.isMultipleOptions && !isEndPage" @click="goToNextPage">Continuar</button></div>
       </div>
-    </div>
+      </div>
   </body>
 </template>
 
@@ -120,9 +113,9 @@ export default {
 
 #storyBox {
   background-color: var(--color-dark);
-  min-height: var(--h-medium-size);
-  width: var(--w-medium-size);
-  padding: var(--h-big-size);
+  height: var(--h-small-size);
+  width: var(--w-big-size);
+  padding: var(--size-font-bb);
   border-radius: var(--size-font-m);
   position: relative;
   background-clip: padding-box; 
@@ -156,38 +149,52 @@ export default {
   justify-content: space-between;
   align-items: center;   
   position: relative;
-  width: var(--w-medium-size);
+  width: var(--w-big-size);
 }
 
 .option-button-group {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
   position: relative;
   width:100%;
-  margin-top:var(--size-sm);
-  min-height: var(--size-sb);
+  margin-top:var(--size-font-ss);
+  min-height: var(--size-font-sb);
+}
+
+.story-text {
+    max-height: 100%;
+    overflow: hidden;
 }
 
 .nav-button-group {  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: var(--size-font-ss);
   position: relative;
   width:100%;
-  margin-top:var(--size-sm);
-  margin-bottom:var(--size-ssm);
+  margin-bottom:var(--size-font-ss);
+}
+.nav-button-grid-cell-1 {
+  justify-self: start;
+}
+.nav-button-grid-cell-2 {
+  justify-self: center;
+}
+.nav-button-grid-cell-3 {
+  justify-self: end;
 }
 
+
 .option-btn {
-  width:100%;
+  min-width:100%;
   font-family: var(--secondary-font-family);
   font-size: var(--size-font-ss); 
+  margin: 0 0 var(--size-font-ss) 0;
 }
 
  .nav-btn {
   width: 12rem;
-  padding: var(--size-ssmm);
+  padding: var(--size-font-s);
   font-family: var(--primary-font-family);
   font-size: var(--size-font-s); 
   margin: 0 0 0 0 !important; 

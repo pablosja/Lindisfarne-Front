@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home align-content">
     <div class="thanks">
         <h2 class="text-h2 font_basic_settings font_spacing">Gracias por leer</h2>
         <h1 class="main-title font_basic_settings">Única Salida</h1>
@@ -28,7 +28,7 @@ export default {
   
   <style>
 .thanks {
-    text-align: center;
+    text-align: center; /* Centrar texto */
     position: relative;
     margin: auto auto auto auto;
     display: flex;
@@ -37,13 +37,14 @@ export default {
   
   .main-title {
     font-family: var(--primary-font-family);
-    font-size: var(--size-font-sb);
-    margin: -1rem;
+    font-size: var(--size-font-sb); /* Tamaño de fuente del texto thx1 */
+    margin: var(--size-font-ss);
+    line-height: var(--size-font-sb); 
   }
   
   .text-h2 {
     font-family: var(--secondary-font-family);
-    font-size: var(--size-font-m); 
+    font-size: var(--size-font-mm); 
   }
 
   .text-h3 {
@@ -51,13 +52,12 @@ export default {
     font-size: var(--size-font-s); 
   }
   
-  
   .backToMMbutton {
     margin: 0 auto var(--size-font-sb) auto;
     border-radius: var(--size-font-b);
     padding: var(--size-font-ss); 
     font-family: var(--primary-font-family);
-    font-size: var(--size-font-smm);
+    font-size: var(--size-font-ss);
     letter-spacing: 1px !important;
   }
   </style>

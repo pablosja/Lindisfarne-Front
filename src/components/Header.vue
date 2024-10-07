@@ -11,7 +11,6 @@ export default {
 </script>
 
 <style>
-
 header {
   background: var(--color-primary);
 }
@@ -25,9 +24,9 @@ header::after {
     z-index: 3;
 }
 
-
 .header-h2, header {
-  padding: var(--size-s);
+  padding-top: var(--size-font-m);
+  padding-bottom: var(--size-font-s);
   text-align: center;
   position: relative;
   top: 0%;
@@ -35,14 +34,8 @@ header::after {
   min-width: 100vw;
 }
 
-
-
-
 h2 {
   font-family: var(--primary-font-family);
-  font-size: var(--size-font-b);
+  font-size: var(--size-font-bb);
 }
-
-
-
 </style>
