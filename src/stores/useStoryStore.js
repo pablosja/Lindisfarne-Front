@@ -28,11 +28,11 @@ export const useStoryStore = defineStore('story', {
     incrementOptB() {
       this.optBClicks++;
     },
-    resetStory() {
-      this.currentPage = 1;
-      this.previousPages = [];
-      this.optAClicks = 0;
-      this.optBClicks = 0;
-    },
+resetStory() {
+    this.currentPage = 1;
+    this.previousPages = [];
+    this.optAClicks = 0;
+    this.optBClicks = 0;
+},
   }
 });

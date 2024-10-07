@@ -44,8 +44,11 @@ export default {
     const router = useRouter();
 
     const handleFinishStory = () => {
-      storyStore.resetStory();
       goToClosing("ClosingView");
+    };
+
+    const handleResetStory = () => {
+    storyStore.resetStory();
     };
 
     const currentStoryPage = computed(() => {
@@ -104,6 +107,7 @@ export default {
       showBackBtn,
       isEndPage,
       handleFinishStory,
+      handleResetStory
     };
   },
 };
