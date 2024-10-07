@@ -5,6 +5,11 @@ import StoryView from '../views/StoryView.vue';
 import ClosingView from '../views/ClosingView.vue';
 
 const routes = [
+
+  {
+    path: '/',
+    redirect: '/login',
+  },
     {
       path: '/home',
       name: 'home',

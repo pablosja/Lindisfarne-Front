@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Home from './views/HomeView.vue';
+import Home from './views/LoginView.vue';
 import { RouterView } from 'vue-router'
 
 export default {
