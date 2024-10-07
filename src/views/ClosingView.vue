@@ -11,24 +11,24 @@
 </template>
 
 <script>
-import { useRouter } from 'vue-router'; // Asegúrate de importar useRouter
+import { useRouter } from 'vue-router';
 
 export default {
   setup() {
-    const router = useRouter(); // Inicializa el router
+    const router = useRouter();
 
     const handleBack = () => {
-      router.push('/home'); // Redirige a HomeView
+      router.push('/home');
     };
 
-    return { handleBack }; // Devuelve la función para usarla en el template
+    return { handleBack };
   }
 };
 </script>
   
   <style>
 .thanks {
-    text-align: center; /* Centrar texto */
+    text-align: center;
     position: relative;
     margin: auto auto auto auto;
     display: flex;
@@ -37,7 +37,7 @@ export default {
   
   .main-title {
     font-family: var(--primary-font-family);
-    font-size: var(--size-font-sb); /* Tamaño de fuente del texto thx1 */
+    font-size: var(--size-font-sb);
     margin: -1rem;
   }
   

@@ -29,7 +29,6 @@ export const useStoryStore = defineStore('story', {
       this.optBClicks++;
     },
     resetStory() {
-      // Restablece todos los datos a su estado inicial, asegurando que se reinicie solo al final
       this.currentPage = 1;
       this.previousPages = [];
       this.optAClicks = 0;

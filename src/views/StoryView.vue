@@ -42,18 +42,17 @@
 import jsonData from "../story.json";
 import { useStoryStore } from "../stores/useStoryStore";
 import { computed } from "vue";
-import { useRouter } from "vue-router"; // Importar el router
+import { useRouter } from "vue-router";
 
 export default {
   name: "StoryView",
   setup() {
     const storyStore = useStoryStore();
-    const router = useRouter(); // Crear una instancia del router
+    const router = useRouter();
 
     const handleFinishStory = () => {
-      // Limpia la persistencia de datos y navega a la vista de cierre
-      storyStore.resetStory(); // Reinicia los datos
-      goToClosing("ClosingView"); // Navega a la vista de cierre
+      storyStore.resetStory();
+      goToClosing("ClosingView");
     };
 
     const currentStoryPage = computed(() => {
@@ -76,20 +75,20 @@ export default {
           storyStore.goToPage(14);
         }
       } else {
-        const nextPageId = currentStoryPage.value.nextPage[0].nextPage; // Suponiendo que el siguiente paso siempre será el primero
+        const nextPageId = currentStoryPage.value.nextPage[0].nextPage;
         storyStore.goToPage(nextPageId);
       }
     };
 
     const goToClosing = () => {
-      router.push("/closing"); // Redirige a HomeView
+      router.push("/closing");
     };
 
     const goBack = () => {
       if (storyStore.currentPage === 1) {
         router.push("/home");
       } else {
-        storyStore.goBack(); // Si no, regresar a la página anterior
+        storyStore.goBack();
       }
     };
 

@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import LoginView from '../views/LoginView.vue'; // Importar LoginView
+import LoginView from '../views/LoginView.vue';
 import StoryView from '../views/StoryView.vue';
-import ClosingView from '../views/ClosingView.vue'; // Importar ClosingView
+import ClosingView from '../views/ClosingView.vue';
 
 const routes = [
     {
@@ -12,7 +12,7 @@ const routes = [
     },
     {
       path: '/login',
-      name: 'LoginView', // Ruta para LoginView
+      name: 'LoginView',
       component: LoginView
     },
     {
@@ -22,7 +22,7 @@ const routes = [
     },
     {
       path: '/closing',
-      name: 'ClosingView', // Ruta para ClosingView
+      name: 'ClosingView',
       component: ClosingView
     },
   ]

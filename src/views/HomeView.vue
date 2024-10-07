@@ -27,10 +27,10 @@ export default {
       this.isLogin = !this.isLogin;
     },
     goToLogin() {
-      this.$router.push({ name: 'LoginView' }); // Redirige a LoginView
+      this.$router.push({ name: 'LoginView' });
     },
     goToStory() {
-      this.$router.push({ name: 'StoryView' }); // Redirige a StoryView
+      this.$router.push({ name: 'StoryView' });
     }
   }
 };

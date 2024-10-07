@@ -30,11 +30,10 @@ export default {
   methods: {
     async handleSubmit() {
       if (this.isLogin) {
-        // Llamada de login
         try {
           const response = await axios.post('/api/v1/login', {
             username: this.username,
-            password: this.password // Enviar la contraseña sin codificación Base64
+            password: this.password
           });
           console.log('Login exitoso:', response.data);
           this.$emit('loginSuccess');
@@ -43,17 +42,15 @@ export default {
           alert('Error en el inicio de sesión. Por favor, verifica tus credenciales.');
         }
       } else {
-        // Validar confirmación de contraseña
         if (this.password !== this.confirmPassword) {
           alert('Las contraseñas no coinciden');
           return;
         }
 
-        // Llamada de registro
         try {
           const response = await axios.post('/api/v1/register', {
             username: this.username,
-            password: this.password // Enviar la contraseña sin codificación Base64
+            password: this.password
           });
           console.log('Registro exitoso:', response.data);
           this.$emit('registerSuccess');
