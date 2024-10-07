@@ -63,5 +63,6 @@
 
 - Figma: https://www.figma.com/proto/TAzry5LlUA3iL5zw28RIIe/Untitled?node-id=1-34&t=JzaqT3sltxc5KIlm-1&scaling=scale-down&content-scaling=fixed
 - Back-end que este proyecto consume como API: https://github.com/pablosja/UltimaSalida-Back.git!
-- User Flow: [UltimaSalida-UserFlow](https://github.com/user-attachments/assets/df79bdf6-f381-4e8f-b4af-bd4129261be5)
+- User Flow: ![UnicaSalida-UserFlow](https://github.com/user-attachments/assets/3d68f88a-075a-4339-99f2-c60776ab8210)
+
 
