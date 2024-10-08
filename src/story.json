@@ -17,12 +17,12 @@
             "nextPage": [
                 {
                     "endId": "f1",
-                    "btnText": "rojo",
+                    "btnText": "Argos decide aceptar el café de buen grado.",
                     "nextPage": 3
                 },
                 {
                     "endId": "f2",
-                    "btnText": "verde",
+                    "btnText": "Argos decide rechazar el café, barriéndolo con el brazo de la mesa y estampando la taza contra el suelo.",
                     "nextPage": 4
                 }
             ]
@@ -49,17 +49,17 @@
         },
         {
             "id": 5,
-            "story": "Mientras la tensión crecía, el teléfono del terrorista sonó, resonando en la sala. Argos lo observó, sintiendo una mezcla de esperanza y temor. \"Sí, lo sé…\", respondió el terrorista al otro lado de la línea, su tono visiblemente alterado. Argos vio una oportunidad, y supo que debía actuar rápido.\n\nEra de un compañero espía de Argos. \"¿Argos? ¿Estás ahí?\" La voz familiar resonó en el teléfono, y el espía sintió el peso de la situación. Tenía que ser astuto. Si lograba transmitir la gravedad de su situación sin alertar al terrorista, podría salvarse.\n\n\"¿Dónde estás? ¿Quién te tiene?\", preguntó su compañero, la preocupación palpable en su tono. Argos sintió que el terrorista se tensaba. \"Estoy en un problema, pero no puedo hablar mucho\", dijo Argos, el corazón latiendo con fuerza.\n\nEl terrorista, al escuchar la respuesta de Argos, se quedó inmóvil, antes de ordenar a Argos que colgara. \"¿Vas a complicarlo todo, Argos? No eres el único con habilidades\", le advirtió. El espía mantuvo el silencio, consciente de que había una línea delgada entre la esperanza y el peligro.\n\n\"Vamos, Argos. La cooperación es un buen camino\", continuó el terrorista, mientras el ambiente se volvía más tenso. La batalla psicológica había comenzado, y Argos sabía que su vida dependía de la astucia y la resistencia.",
+            "story": "Mientras la tensión crecía, el teléfono de Argos, ahora en manos del terrorista, sonó, resonando en la sala. Argos lo observó, sintiendo una mezcla de esperanza y temor. \"Contesta al teléfono, pero sin juegos.\", respondió el terrorista ofreciéndole el teléfono a Argos. Argos vio una oportunidad, y supo que debía actuar rápido.\n\nEra de un compañero espía de Argos. \"¿Argos? ¿Estás ahí?\" La voz familiar resonó en el teléfono, y el espía sintió el peso de la situación. Tenía que ser astuto. Si lograba transmitir la gravedad de su situación sin alertar al terrorista, podría salvarse.\n\n\"¿Dónde estás? ¿Quién te tiene?\", preguntó su compañero, la preocupación palpable en su tono. Argos sintió que el terrorista se tensaba. \"Estoy en un problema, pero no puedo hablar mucho\", dijo Argos, el corazón latiendo con fuerza.\n\nEl terrorista, al escuchar la respuesta de Argos, se quedó inmóvil, antes de ordenar a Argos que colgara. \"¿Vas a complicarlo todo, Argos? No eres el único con habilidades\", le advirtió. El espía mantuvo el silencio, consciente de que había una línea delgada entre la esperanza y el peligro.\n\n\"Vamos, Argos. La cooperación es un buen camino\", continuó el terrorista, mientras el ambiente se volvía más tenso. La batalla psicológica había comenzado, y Argos sabía que su vida dependía de la astucia y la resistencia.",
             "isMultipleOptions": true,
             "nextPage": [
                 {
                     "endId": "f1",
-                    "btnText": "magenta",
+                    "btnText": "Argos le dice a su compañero en ruso: Не беспокойся. Я поскользнулся в ванной, но со мной все в порядке. Это всего лишь небольшой удар. Кстати, не забудь вернуть книгу Марии.",
                     "nextPage": 6
                 },
                 {
                     "endId": "f2",
-                    "btnText": "amarillo",
+                    "btnText": "Argos le dice a su compañero en ruso: Слушай, меня похитили. Определи местоположение звонка и быстро отправь подкрепление",
                     "nextPage": 7
                 }
             ]
@@ -86,17 +86,17 @@
         },
         {
             "id": 8,
-            "story": "Argos respiró hondo y miró al terrorista a los ojos. Sabía que debía mantener la calma. \"No tengo los códigos que buscas. Si me matas, no obtendrás nada\", dijo, su voz firme. El terrorista lo observó con desdén, pero Argos sintió que había ganado un poco de tiempo. La presión del momento le hacía pensar en la próxima jugada. ¿Cómo podría convertir esta situación en su favor?\n\nEl terrorista, visiblemente frustrado, dio un paso atrás. \"Entonces, hablemos de otra cosa. ¿Por qué no me cuentas sobre tus compañeros espías? Eso podría ser entretenido\". Argos, manteniendo el control de la situación, sonrió internamente. Sabía que, aunque el terrorista intentaba cambiar el tema, la amenaza seguía presente.\n\n\"Lo siento, no estoy aquí para entretenerte. Estoy aquí para sobrevivir\", replicó Argos. El terrorista se quedó en silencio, sopesando sus palabras. El ambiente se tornó sombrío y ambos comprendieron que la conversación había cambiado de dirección. La tensión aumentó nuevamente, y Argos sabía que debía estar preparado para lo peor.",
+            "story": "Argos respiró hondo y miró al terrorista a los ojos. Sabía que debía mantener la calma. \"No tengo los códigos que buscas. Si me matas, no obtendrás nada\", dijo, su voz firme. El terrorista lo observó con desdén, pero Argos sintió que había ganado un poco de tiempo. La presión del momento le hacía pensar en la próxima jugada. ¿Cómo podría convertir esta situación en su favor?\n\nEl terrorista, visiblemente frustrado, dio un paso atrás. \"Entonces, hablemos de otra cosa. ¿Por qué no me cuentas sobre tus compañeros espías? Eso podría ser entretenido\". Argos, manteniendo el control de la situación, sonrió internamente. Sabía que, aunque el terrorista intentaba cambiar el tema, la amenaza seguía presente.\n\n\"Lo siento, no estoy aquí para entretenerte. Estoy aquí para sobrevivir\", replicó Argos. El terrorista se quedó en silencio, sopesando sus palabras. El ambiente se tornó sombrío y ambos comprendieron que la conversación había cambiado de dirección. La tensión aumentó nuevamente, y Argos sabía que debía estar preparado para lo peor. El terrorista, repentinamente, sacó su revólver, y apuntando a la cabeza de Argos le amenazó con ira, espetando: \"¡Los códigos! ¡Ya! ¡Última oportunidad, maldita sea! ¡Dame los malditos códigos o te juro que te mato aquí mismo!\"",
             "isMultipleOptions": true,
             "nextPage": [
                 {
                     "endId": "f1",
-                    "btnText": "blanco",
+                    "btnText": "Cediendo a la presión y al miedo, Argos decide revelar los códigos de activación de los drones.",
                     "nextPage": 9
                 },
                 {
                     "endId": "f2",
-                    "btnText": "gris",
+                    "btnText": "Impasible ante las amenazas, Argos se niega a revelar ninguna información.",
                     "nextPage": 10
                 }
             ]
@@ -150,7 +150,7 @@
         },
         {
             "id": 13,
-            "story": "ipsum lorem 13",
+            "story": "En el oscuro sótano, la tensión era insoportable. Argos y el terrorista estaban frente a frente, turnándose para dispararse a sí mismos con el revólver, el sudor corriendo por sus frentes. Habían jugado a la ruleta rusa varias veces, el terrorista sonriendo con una maldad aterradora, mientras Argos se debatía entre la estrategia y el miedo.\n\nCuando llegó el momento decisivo, Argos sintió un escalofrío recorrer su espalda. La pistola que sostenía parecía cada vez más pesada, su mente girando en torno a una pregunta aterradora: ¿sería esta la bala que lo llevaría a su final? En un instante de desesperación, Argos decidió que no podía permitir que el terrorista ganara.\n\nCon un movimiento rápido y calculado, Argos apretó el gatillo. Nada. Una recámara vacía en el tambor. Fue entonces el turno del terrorista. El terrorista, visiblemente nervioso a la par que orgulloso, puso el revólver contra su sien y, lanzando un grito de ira y adrenalina, apretó el gatillo. Un estruendo resonó en la habitación, pero el terrorista, confiado en su victoria, ahora yacía sin vida sobre el suelo. La suerte no había estado de su lado. El terrorista terminó disparándose a sí mismo en la cabeza, colapsando al instante.\n\nArgos, aunque herido por la experiencia y consumido por la adrenalina, sintió que la presión se disipaba. Había sobrevivido, y con un profundo suspiro de alivio, se giró hacia la salida del sótano. Con el terrorista muerto a sus pies, el camino hacia la libertad estaba despejado. Con determinación, Argos logró escapar de aquel lugar oscuro, dejando atrás la pesadilla que casi lo consume. La libertad le sonreía mientras se perdía en la oscuridad de la noche, prometiéndose que nunca volvería a subestimar la vida ni a su enemigo.",
             "isMultipleOptions": false,
             "nextPage": [
                 {
@@ -160,7 +160,7 @@
         },
         {
             "id": 14,
-            "story": "ipsum lorem 14",
+            "story": "La atmósfera en el sótano estaba cargada de tensión, y Argos sabía que el tiempo se agotaba. Con cada clic del tambor del revólver, su miedo crecía. Él y el terrorista habían apretado el gatillo varias veces, y la posibilidad de que uno de ellos realmente tuviera la bala en esta ronda parecía inevitable. El terrorista sonreía, disfrutando del juego mortal, mientras Argos se debatía entre el pánico y la estrategia.\n\nEn un momento de desesperación, Argos decidió hacer trampa. Se lanzó hacia el terrorista, levantando su revólver y apuntándole. \"¡No jugaré más a tus juegos!\" gritó, pero el terrorista, anticipando este movimiento, había estado preparado. Con un movimiento rápido, sacó una segunda pistola que había escondido en su cinturón.\n\nAmbos hombres dispararon simultáneamente, y el sonido de los disparos resonó en el sótano, como un eco de un destino trágico. Argos sintió una punzada en su lado, el ardor del impacto lo atravesó, mientras que el terrorista también recibió su destino final. Ambos cayeron al suelo, la vida escapándose de sus cuerpos mientras la oscuridad los envolvía.\n\nEl sótano quedó en silencio, marcado por el eco de dos vidas que se extinguieron en un juego de locura. La historia de Argos terminó en un trágico desenlace, donde el miedo y la traición se entrelazaron en un último acto de desesperación. No hubo sobrevivientes, solo el frío y la penumbra, recordando lo efímero de la vida y las decisiones que se toman en momentos de desesperación.",
             "isMultipleOptions": false,
             "nextPage": [
                 {

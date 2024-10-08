@@ -1,23 +1,131 @@
 @import './base.css';
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+/* VARIABLES */
+
+:root {
+
+  /* F O N T S */
+  /* MAIN FONT  */  --primary-font-family: "Black Ops One", system-ui;
+  /* SEC FONT   */  --secondary-font-family: "Orbitron", sans-serif;
+  /* BASE SIZE  */  --font-base-size: 100%;
+
+  /* S I Z E S */
+
+  /* SPACING */ 
+  --size-s: 0.1em;                  
+  --size-ssmm: calc(var(--size-sm) * 0.7);
+  --size-sm: 1em;       
+  --size-ssm: calc(var(--size-sm) * 2);
+  --size-b: calc(var(--size-sm) * 6);  
+  --size-sb: calc(var(--size-sm) * 8);
+ 
+  /* FONT SIZE */
+
+  /* 14px */ --size-font-ss: calc(var(--size-font-s) * 0.75);
+  /* 16px */ --size-font-s:  1rem;
+  /* 20px */ --size-font-sm: calc(var(--size-font-s) * 1.25);
+  /* 25px */ --size-font-m:  calc(var(--size-font-s) * 1.5);
+  /* 30px */ --size-font-mb:  calc(var(--size-font-s) * 1.8);
+  /* 40px */ --size-font-b:  calc(var(--size-font-s) * 2.5);
+  /* 70px */ --size-font-bb: calc(var(--size-font-s) * 4.4);
+  /* 120px*/ --size-font-sb: calc(var(--size-font-s) * 7.5);
+
+  /* VIEWPORT */
+  /* w */    --w-medium-size: 50vw;  
+             --w-big-size: 80vw; 
+
+  /* h */    --h-small-size: 50vh;  
+             --h-medium-size: 60vh;  
+             --h-big-size: 70vh;  
+
+
+  /* C O L O R S */
+
+  /* BG FORM    */  --color-primary:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(12, 12, 12, 0.8));
+  /* BG GENERAL */  --color-secondary: rgb(60, 60, 60);
+  /* BG TEXTBOX */  --color-dark: rgb(4, 4, 3); 
+  /* FONT COLOR */  --color-light: rgb(255, 255, 255);       
+  /* BTN BG     */  --color-button-general:linear-gradient(to bottom, rgb(7, 7, 7), rgba(34, 34, 34)); 
+                    --color-button-nav:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(37, 37, 37, 0.8)); 
+  /* BTN ACTIVE */  --color-button-active: linear-gradient(to bottom, rgba(22, 22, 22, 0.8), rgba(34, 34, 34, 0.8));    
+  /* BTN HOVER  */  --color-button-hover: linear-gradient(to bottom, rgba(22, 22, 22, 0.8), rgba(31, 31, 31, 0.8));    
+  /* INPUT BG   */  --color-light-gradient: linear-gradient(to bottom, #AAAAAA, #FFFFFF);
+  /* BOX SHADOW */  --color-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  /* HEAD GRAD  */  --color-header-gradient: linear-gradient(to right, #444444 0%, #ffffff 50%, #444444 100%);
+  /* BORD GRAD  */  --color-border-gradient:linear-gradient(to bottom,rgb(68, 68, 68),rgb(255, 255, 255),rgba(68, 68, 68),rgba(0, 0, 0));
+                          
+}
+
+/* INTERACTION */
+  
+button:active {
+  background: var(--color-button-active);
   transition: 0.4s;
-  padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+button:hover {
+  background: var(--color-button-hover);
+  transition: 0.4s;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
+button:disabled {
+  background: var(--color-button-hover);
+  transition: 0.4s;
+}
+
+/* RESPONSIVENESS */
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+
+  :root{ /* BASE SIZE  */  --font-base-size: 50%;}
+
+  #storyBox {
+    height: var(--h-big-size) !important;
   }
+
+}
+
+/* Móviles grandes */
+@media (min-width: 481px) and (max-width: 767px) {
+
+  :root{ /* BASE SIZE  */  --font-base-size: 80%;}  
+  
+  #storyBox {
+    height: var(--h-big-size) !important;
+  }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  :root{ /* BASE SIZE  */  --font-base-size: 90%;}
+
+  #storyBox {
+    height: var(--h-medium-size) !important;
+  }
+
+}
+
+/* Tablets grandes y pequeños portátiles */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  :root{ /* BASE SIZE  */  --font-base-size: 95%;}
+
+}
+
+/* Pantallas de escritorio estándar y monitores pequeños */
+@media (min-width: 1281px) and (max-width: 1440px) {
+
+  :root{ /* BASE SIZE  */  --font-base-size: 100%;}
+
+}
+
+
+/* Monitores de escritorio grandes y pantallas de alta definición (HD) */
+@media (min-width: 1441px) {
+
+  :root{ /* BASE SIZE  */  --font-base-size: 120%;}
 
 }
