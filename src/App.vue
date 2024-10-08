@@ -1,5 +1,31 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+
+<template>
+  <div id="app">
+    <RouterView />
+  </div>
+</template>
+
+<script>
+import Home from './views/HomeView.vue';
+import { RouterView } from 'vue-router'
+
+export default {
+  components: {
+    Home,
+    RouterView
+  }
+};
+</script>
+
+<style>
+/* Estilos globales si son necesarios */
+</style>
+
+
+
+<!-- <script setup>
+
+
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -82,4 +108,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->

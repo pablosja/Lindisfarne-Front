@@ -1,0 +1,172 @@
+{
+    "pages": [
+        {
+            "id": 1,
+            "story": "En un oscuro sótano de Madrid, Argos, un espía del CNI español, despertó aturdido. La última misión había salido mal, y su mente aún estaba tratando de asimilar la realidad. Las luces parpadeantes y el eco del silencio que lo rodeaba le hicieron comprender su situación: había sido capturado. En la penumbra, una figura emergió, un terrorista de rostro cubierto que lo observaba con una mezcla de curiosidad y determinación.\n\n\"Despertaste justo a tiempo para charlar\", dijo el terrorista con una voz calmada, casi educada. \"Tengo algunas preguntas y creo que tienes las respuestas que necesito\". Argos, con el corazón acelerado, trató de recordar los protocolos de supervivencia. Sabía que debía resistir. El terrorista se acercó y dejó una taza de café en la mesa, un gesto que parecía inofensivo, pero que podía esconder intenciones ocultas.\n\n\"Primero, un café. Una buena conversación empieza con una buena taza\", dijo, mientras Argos lo miraba con desconfianza. El espía sabía que, en ese momento, debía mantenerse alerta y evaluar cada detalle a su alrededor. A su mente llegaron recuerdos de entrenamientos, de supervivencia y de resistencia psicológica. La misión había fracasado, pero su vida y la de muchos más dependían de su ingenio y valentía.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "story": "Argos miró la taza, considerando sus opciones. El café, aunque parecía un simple gesto de cortesía, podría ser una trampa. Después de un breve silencio, el terrorista se inclinó hacia adelante, su mirada fija y penetrante. \"Elige, Argos. Lo que decidas influirá en cómo continuará nuestra conversación\".\n\nLa tensión en la sala era palpable. Argos sabía que, en situaciones como esta, un movimiento en falso podría ser fatal. Decidió que era mejor no dejar que el terrorista adivinara su siguiente paso. La taza parecía sencilla, pero había algo en el aire que le decía que cada decisión contaba. Su mente recorría las posibles respuestas mientras el terrorista mantenía una sonrisa que no llegaba a sus ojos.\n\n\"¿Qué será, Argos? ¿Un café para suavizar las cosas, o un acto de desafío que podría costarte muy caro?\" El espía podía sentir la presión. La mirada del hombre le decía que no había lugar para el error. Después de un momento que pareció eterno, Argos tomó una decisión. La verdad es que las mejores decisiones, en situaciones de alta presión, son aquellas que se toman con una mente clara y firme.",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "rojo",
+                    "nextPage": 3
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "verde",
+                    "nextPage": 4
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "story": "(Continuación de la opción A de la página 2)\n\nArgos tomó la taza con una sonrisa falsa. \"Gracias\", dijo, llevándola a sus labios. Su mente, sin embargo, estaba alerta, buscando la manera de escapar o ganar tiempo. El terrorista lo observó, satisfecho, mientras Argos sorbía el café lentamente, analizando cada sabor y la posible toxicidad del líquido que estaba a punto de consumir.\n\n\"¿Qué tal? Espero que sea de tu agrado\", comentó el secuestrador, disfrutando de la aparente comodidad del momento. Argos sintió que su corazón latía con fuerza, pero se obligó a relajarse y participar en la conversación.\n\nEl terrorista cambió de tema, \"Así que, Argos, ¿te gustaría hablar de los drones? Estoy seguro de que sabes mucho sobre ellos\". Argos sintió una punzada de adrenalina. Sabía que debía resistir y, al mismo tiempo, buscar información sobre su captor. Estaba consciente de que cualquier palabra podía ser crucial en esa conversación.\n\nEl tiempo pasó mientras intercambiaban palabras, y Argos trató de obtener más información sobre su captor. Sin embargo, de repente, el terrorista se puso serio. \"Hablemos en términos claros. No quiero perder tiempo. Quiero los códigos de activación. Si no, las cosas se complicarán\". Argos sabía que debía resistir, pero la amenaza era clara y real.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "story": "(Continuación de la opción B de la página 2)\n\nArgos, en un acto de desafío, empujó la taza con fuerza. El cerámico estalló en el suelo, derramando café por todas partes. \"No tengo interés en tu café ni en tus juegos\", dijo, mirando al terrorista con determinación. Su corazón latía rápido, pero su mente estaba en modo de supervivencia.\n\nEl terrorista frunció el ceño, pero rápidamente recuperó su compostura. \"Interesante elección, Argos. Veo que te gusta jugar al duro. Pero eso no cambiará el hecho de que necesitas hablar\". Sus palabras resonaban como un eco, llenando la habitación con una amenaza inminente.\n\n\"¿Por qué no empezamos con los códigos de los drones?\", sugirió el terrorista, su tono persuasivo mezclado con una sutil amenaza. Argos mantuvo el silencio, el sudor frío corriendo por su frente mientras trataba de pensar en un plan para salir de allí. Cada segundo que pasaba se convertía en una eternidad, y sabía que cada palabra que pronunciara lo acercaría más a su destino.\n\nLa sala se volvió un espacio tenso, y la mirada desafiante del espía solo parecía alimentar la rabia del terrorista. \"No subestimes la situación en la que estás, Argos. Las decisiones que tomes ahora definirán tu futuro\", advirtió, acercándose aún más, lo que hizo que el espía contuviera la respiración.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "story": "Mientras la tensión crecía, el teléfono del terrorista sonó, resonando en la sala. Argos lo observó, sintiendo una mezcla de esperanza y temor. \"Sí, lo sé…\", respondió el terrorista al otro lado de la línea, su tono visiblemente alterado. Argos vio una oportunidad, y supo que debía actuar rápido.\n\nEra de un compañero espía de Argos. \"¿Argos? ¿Estás ahí?\" La voz familiar resonó en el teléfono, y el espía sintió el peso de la situación. Tenía que ser astuto. Si lograba transmitir la gravedad de su situación sin alertar al terrorista, podría salvarse.\n\n\"¿Dónde estás? ¿Quién te tiene?\", preguntó su compañero, la preocupación palpable en su tono. Argos sintió que el terrorista se tensaba. \"Estoy en un problema, pero no puedo hablar mucho\", dijo Argos, el corazón latiendo con fuerza.\n\nEl terrorista, al escuchar la respuesta de Argos, se quedó inmóvil, antes de ordenar a Argos que colgara. \"¿Vas a complicarlo todo, Argos? No eres el único con habilidades\", le advirtió. El espía mantuvo el silencio, consciente de que había una línea delgada entre la esperanza y el peligro.\n\n\"Vamos, Argos. La cooperación es un buen camino\", continuó el terrorista, mientras el ambiente se volvía más tenso. La batalla psicológica había comenzado, y Argos sabía que su vida dependía de la astucia y la resistencia.",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "magenta",
+                    "nextPage": 6
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "amarillo",
+                    "nextPage": 7
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "story": "(Continuación de la opción A de la página 5)\n\n\"Ahora mismo me pillas ocupado, te llamo más tarde. Y acuérdate de devolverme el libro que te presté\", dijo Argos, manteniendo la calma. Su mente estaba en alerta máxima, y la ironía de su respuesta no se le escapó. La confusión y el desconcierto se dibujaron en el rostro de su compañero.\n\n\"¿Qué? ¿Argos?\" preguntó su compañero, su tono ahora lleno de preocupación. El terrorista, observando la interacción, frunció el ceño, sintiendo que las cosas estaban fuera de control.\n\n\"¿Qué estás diciendo? ¿Estás en problemas?\", preguntó su compañero con urgencia. Argos sonrió por dentro, sintiendo que estaba ganando tiempo. El terrorista, a su lado, seguía inquieto, impaciente.\n\n\"Perfecto. Apunta\", dijo Argos, dictando números ficticios. Su mente trabajaba a toda velocidad, intentando crear una confusión. El terrorista, concentrado en escribir, no se dio cuenta de que Argos había comenzado a planear su escape.\n\n\"¿Ves? No es tan difícil cooperar\", dijo el terrorista, mientras Argos sonreía por dentro, pensando en cómo convertir esa charla en una oportunidad de fuga. Pero el espía sabía que cada movimiento contaba, y debía ser cauteloso, pues cualquier error podría ser fatal.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "story": "(Continuación de la opción B de la página 5)\n\n\"He sido secuestrado. Trata de localizar esta llamada y envía refuerzos a rescatarme\", dijo Argos, sintiendo el peligro al acecho. La voz de su compañero resonó con urgencia. \"¿Estás en peligro?\", preguntó, la preocupación palpable. Argos asintió, aunque sabía que su compañero no podía verlo.\n\nEl terrorista, que se había dado cuenta del peligro de la llamada, se abalanzó sobre Argos, arrebatándole el teléfono de las manos con violencia. \"¡Eso no va a suceder, Argos!\".\n\nCon la situación ahora fuera de control, Argos sintió que la batalla psicológica había llegado a su punto álgido. El terrorista, furioso, lanzó el teléfono al suelo, rompiéndolo en mil pedazos. La tensión aumentó mientras ambos se miraban desafiantes, y Argos sabía que su vida pendía de un hilo.\n\nEl espía trató de mantener la compostura, pero el terrorista estaba perdiendo la paciencia. \"Última advertencia, Argos. Los códigos o las cosas se pondrán mucho peor para ti\", gruñó el terrorista, su voz ahora llena de rabia. Argos sabía que cada segundo contaba, y estaba decidido a resistir, a pesar del peligro inminente.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "story": "Argos respiró hondo y miró al terrorista a los ojos. Sabía que debía mantener la calma. \"No tengo los códigos que buscas. Si me matas, no obtendrás nada\", dijo, su voz firme. El terrorista lo observó con desdén, pero Argos sintió que había ganado un poco de tiempo. La presión del momento le hacía pensar en la próxima jugada. ¿Cómo podría convertir esta situación en su favor?\n\nEl terrorista, visiblemente frustrado, dio un paso atrás. \"Entonces, hablemos de otra cosa. ¿Por qué no me cuentas sobre tus compañeros espías? Eso podría ser entretenido\". Argos, manteniendo el control de la situación, sonrió internamente. Sabía que, aunque el terrorista intentaba cambiar el tema, la amenaza seguía presente.\n\n\"Lo siento, no estoy aquí para entretenerte. Estoy aquí para sobrevivir\", replicó Argos. El terrorista se quedó en silencio, sopesando sus palabras. El ambiente se tornó sombrío y ambos comprendieron que la conversación había cambiado de dirección. La tensión aumentó nuevamente, y Argos sabía que debía estar preparado para lo peor.",
+            "isMultipleOptions": true,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "blanco",
+                    "nextPage": 9
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "gris",
+                    "nextPage": 10
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "story": "(Continuación de la opción A de la página 8)\n\n\"Eso es lo que me gusta de ti, Argos. Eres un hombre de carácter. Pero, recuerda, la lealtad puede ser un arma de doble filo\", dijo el terrorista, dando un paso hacia adelante. Argos sintió que su corazón latía con fuerza, pero la determinación se reflejaba en su mirada.\n\n\"Dime algo, Argos. ¿Alguna vez has considerado cambiar de bando?\", preguntó el terrorista, intentando sembrar la duda en su mente. Argos se dio cuenta de que intentaba manipularlo, pero mantuvo su postura. La batalla psicológica estaba lejos de terminar.\n\n\"No me verás del lado de los enemigos de mi país\", respondió con firmeza. El terrorista se rió entre dientes, como si se burlara de su respuesta. \"Tus ideales no te salvarán aquí\", dijo. Argos sabía que necesitaba actuar rápido; el juego de palabras podía ser la clave para escapar de esa situación.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 11
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "story": "(Continuación de la opción B de la página 8)\n\n\"No estoy interesado en tus juegos mentales. Soy un espía, no un títere\", dijo Argos con determinación. El terrorista frunció el ceño, pero Argos vio una chispa de sorpresa en su mirada. Sabía que la conversación se estaba volviendo más peligrosa, pero era su única oportunidad de obtener una ventaja.\n\n\"Tu arrogancia es tu peor enemigo\", respondió el terrorista. \"Sin embargo, a veces es útil, y estoy seguro de que podrías ser útil para mí\". Argos sabía que debía mantenerse firme. En ese momento, sintió que el control de la conversación pendía de un hilo, pero su espíritu de lucha era más fuerte.\n\n\"No tengo nada que ofrecerte. Solo tengo mi vida y eso es lo que estoy dispuesto a proteger\", dijo, con la voz temblando por la presión. La ira del terrorista creció, y Argos se preparó para cualquier respuesta que pudiera seguir. La tensión en el aire se volvió casi palpable, y ambos hombres eran conscientes de que estaban en una encrucijada.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 11
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "story": "El terrorista se acercó, su mirada oscura reflejando su furia. \"Estás jugando con fuego, Argos. No estoy aquí para perder tiempo. Quiero que colabores, o las cosas se pondrán muy mal para ti\". El espía sabía que tenía que mantener la calma, pero el miedo lo invadía.\n\n\"Si te matas a ti mismo en el proceso, entonces habremos perdido todos\", dijo Argos, intentando hacerle ver la realidad. El terrorista, sorprendido por la respuesta, se detuvo. Era como si Argos hubiera tocado una fibra sensible en su enemigo. Pero la calma del espía era solo un disfraz de su pánico interno.\n\nEl silencio que siguió fue espeso, y Argos sabía que debía aprovechar ese momento. \"Puedes seguir torturándome, pero no obtendrás lo que quieres\". Sus palabras resonaron en el aire, y la tensión entre ellos alcanzó un nuevo nivel. Sin embargo, en su mente, Argos fraguaba un plan para voltear la situación a su favor.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": 12
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "story": "(Conclusión)\n\nFinalmente, el terrorista dio un paso atrás, confuso. Argos sabía que había golpeado donde más dolía, y el silencio se volvió ensordecedor. Era el momento de actuar. La clave estaba en la calma que había mantenido y la confianza que había construido en su adversario.\n\n\"Si realmente quieres los códigos, tendrás que dejarme salir de aquí. Juntos podemos lograrlo\", sugirió Argos, aprovechando la incertidumbre del terrorista. La duda cruzó la cara del hombre, y Argos supo que había logrado abrir una rendija en su adversidad. Su corazón latía con fuerza, pero su mente estaba enfocada en la única salida posible. La batalla había sido dura, pero Argos estaba decidido a ganarla. Era un espía, y su historia aún no había terminado.",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "endId": "f1",
+                    "btnText": "oro",
+                    "nextPage": 13
+                },
+                {
+                    "endId": "f2",
+                    "btnText": "plata",
+                    "nextPage": 14
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "story": "ipsum lorem 13",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": "ClosingPage"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "story": "ipsum lorem 14",
+            "isMultipleOptions": false,
+            "nextPage": [
+                {
+                    "nextPage": "ClosingPage"
+                }
+            ]
+        }
+    ]
+}
